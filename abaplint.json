@@ -106,11 +106,7 @@
     },
     "cloud_types": true,
     "colon_missing_space": true,
-    "commented_code": {
-      "exclude": [],
-      "severity": "Error",
-      "allowIncludeInFugr": true
-    },
+    "commented_code": false,    
     "constructor_visibility_public": true,
     "contains_tab": {
       "exclude": [],
@@ -390,7 +386,7 @@
     },
     "unknown_types": true,
     "unreachable_code": true,
-    "unused_methods": true,
+    "unused_methods": false,
     "unused_types": {
       "exclude": [],
       "severity": "Error",
